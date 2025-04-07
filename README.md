@@ -1,4 +1,4 @@
-# 🎯 Number Guessing Game (Python CLI)
+# 🎯 Number Guessing Game
 
 This is a fun Python command-line game where either **you guess the number**, or the **computer guesses your number**. No GUI. Just straight-up terminal vibes. 🔢🤖
 
