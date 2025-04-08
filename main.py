@@ -27,7 +27,7 @@ def computer_guessing_the_number(x):
         if low != high:
             guess = random.randint(low,high)
         else:
-            guess = high
+            guess = high #or guess = low , both are same
     
         feedback = input(f" {guess} is Computer Guess, Its too low (l) or Its too high (h) or Its correct (c) :").upper()
 
