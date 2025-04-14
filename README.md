@@ -9,9 +9,17 @@ This is a fun Python command-line game where either **you guess the number**, or
 
 Simple logic, beginner-friendly, and a fun way to learn basic Python loops and conditionals!
 
-## 🛠 How to Run
+## 🚀 Getting Started
 
-Make sure you have Python installed, then run:
+### 1. Clone this repo:
+
+```bash
+git clone https://github.com/lokesha01hp/Rock_Paper_Scissors.git
+cd Rock_Paper_Scissors
+```
+
+### 2. Run the script:
 
 ```bash
 python main.py
+```
