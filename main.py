@@ -6,7 +6,7 @@ def guess_the_number(x):
     guess = None
 
     while guess != random_number:
-        guess=int(input(f"Guess the number between 1 and {x}: "))
+        guess=int(input(f"\n Guess the number between 1 and {x}: "))
         if guess < random_number:
             print("Too low! Try again.")
         elif guess > random_number:
@@ -39,13 +39,20 @@ def computer_guessing_the_number(x):
     print("Yea! The computer Guessed the correct number that you assumed",number)
 
 # computer_guessing_the_number(50)
+print("🎮 Welcome to the Number Guessing Game!")
+print("Choose your mode:")
 
-user_input = int(input("Enter (1) to Guess the number or (2) To Guess the number by computer :"))
-try:
-    if user_input == 1:
-        guess_the_number(100)
-    else:
-        computer_guessing_the_number(100)
+while True:
+        user_input = int(input("1️⃣  You guess the computer's number or 2️⃣  The computer guesses your number :"))
+        try:
+            if user_input == 1:
+                guess_the_number(100)
+                break 
+            elif user_input == 2:
+                computer_guessing_the_number(100)
+                break 
+            else:
+                print("Invalid input,Try again!!!")
 
-except ValueError :
-    print("Enter 1 or 2, not characters")
+        except ValueError :
+            int("That’s not a number. Try again with 1 or 2.")
