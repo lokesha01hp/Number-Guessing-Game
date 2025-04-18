@@ -11,7 +11,7 @@ def guess_the_number(x):
             print("Too low! Try again.")
         elif guess > random_number:
             print("Too high! Try again.")
-    print(f"Congrats! You guessed the correct number {random_number}")
+    print(f"\nCongrats! You guessed the correct number {random_number}")
     
 
 # guess_the_number(5)
@@ -55,4 +55,7 @@ while True:
                 print("Invalid input,Try again!!!")
 
         except ValueError :
-            int("That’s not a number. Try again with 1 or 2.")
+            int("That's not a number. Try again with 1 or 2.")
+
+
+
